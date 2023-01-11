@@ -6,7 +6,7 @@ void solve()
 {
 	long double radius;
 	cin >> radius;
-	cout << radius*radius*PI;
+	cout <<fixed<<setprecision(9)<< radius*radius*PI;
 }
 
 signed main()
